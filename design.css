@@ -1,0 +1,47 @@
+body {
+    background: rgb(96, 212, 96);
+    background-image: radial-gradient(black 1px, transparent 0);
+    background-size: 5px 5px;    
+}
+
+div{
+    height: 915px; 
+    width: 600px;
+    background-color: white;
+    margin: auto;
+    border: 0px 0px 3px 3px solid rgb(124, 124, 124);
+    padding: 10px;
+    box-shadow: 1rem;
+    font-size: large;
+}
+
+:root {
+    --width-input-border: 2px;
+    --radius-inputs: 0.25em;
+    --padding-inputs: 0.75em;
+  }
+  
+  select, textarea, input{
+    padding: var(--padding-inputs);
+    border: var(--width-input-border) solid;
+    border-radius: var(--radius-inputs);
+  }
+
+  .span{
+    width: 35rem;
+  }
+
+  .h1{
+    text-align: center;
+  }
+  .button{
+    padding: 15px 15px;
+    background: rgb(96, 212, 96);
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 37.5rem;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+  }
